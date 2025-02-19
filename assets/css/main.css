@@ -1360,12 +1360,20 @@ section,
 .features-2 .phone-mockup {
   position: relative;
   padding: 30px 0;
+  
 }
 
 .features-2 .phone-mockup img {
   max-width: 300px;
   height: auto;
   filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.1));
+  transition: transform 0.4s ease;
+  transform: scale(1.4);
+  
+}
+
+.features-2 .phone-mockup img:hover {
+  transform: scale(1.5); /* Scales the image up by 10% */
 }
 
 @media (max-width: 991.98px) {
