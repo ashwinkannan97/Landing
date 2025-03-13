@@ -55,6 +55,7 @@
           <li><a href="#services">Services</a></li>
           <li><a href="contactus.html">Contact Us</a></li>
           <li><a href="about.html">About Us</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -166,7 +167,6 @@
 
     <!-- Features Section -->
     <section id="features" class="features section">
-
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Features</h2>
@@ -174,40 +174,30 @@
       </div><!-- End Section Title -->
 
       <div class="container">
-
         <div class="d-flex justify-content-center">
-
           <ul class="nav nav-tabs" data-aos="fade-up" data-aos-delay="100">
-          <!-- R2: ✅ HIDE ADDon Features But Keep in Code-->
-            <!--<li class="nav-item">
-              <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
-                <h4>Addon Features</h4>
-              </a>
-            </li>--><!-- End tab nav item -->
-
-            <li class="nav-item">  <!-- R2: 📝 MAKE SURE TO CHANGE THE data-bs-target back featured-tab-2 -->
-              <a class="nav-link" active show data-bs-toggle="tab" data-bs-target="#features-tab-1">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#features-tab-1">
                 <h4>Front of House</h4>
-              </a><!-- End tab nav item -->
+              </a>
+            </li><!-- End tab nav item -->
 
-            </li>
             <li class="nav-item">
               <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
                 <h4>Back of House - KDS</h4>
               </a>
             </li><!-- End tab nav item -->
-            <li class="nav-item">  <!-- R2: 📝 MAKE SURE TO CHANGE THE data-bs-target back featured-tab-2 -->
-              <a class="nav-link" active show data-bs-toggle="tab" data-bs-target="#features-tab-3">
+
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
                 <h4>Sales Analytics</h4>
-              </a><!-- End tab nav item -->
-
-            </li>
+              </a>
+            </li><!-- End tab nav item -->
           </ul>
-
         </div>
 
         <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-
+          <!-- First tab is active and visible by default -->
           <div class="tab-pane fade active show" id="features-tab-1">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
@@ -216,14 +206,14 @@
                   Manage all incoming orders effortlessly from one screen—accept, decline, and track in real time without juggling multiple apps.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>One Dashboard – Manage all orders from a single screen - no need to switch between tablets.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Real-Time Control – Accept, decline, or modify instantly.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Faster, Fewer Errors – Reduce mistakes & improve efficiency.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Seamless Syncronization - Orders update automatically across all delivery apps to keep operations running smoothly.</span></li>
+                  <li><i class="bi bi-check2-all"></i> One Dashboard – Manage all orders from a single screen.</li>
+                  <li><i class="bi bi-check2-all"></i> Real-Time Control – Accept, decline, or modify instantly.</li>
+                  <li><i class="bi bi-check2-all"></i> Faster, Fewer Errors – Reduce mistakes & improve efficiency.</li>
+                  <li><i class="bi bi-check2-all"></i> Seamless Synchronization – Orders update automatically across all delivery apps.</li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-illustration-1.webp" alt="" class="img-fluid">
+                <img src="assets/img/features-illustration-1.webp" alt="Feature Image" class="img-fluid">
               </div>
             </div>
           </div><!-- End tab content item -->
@@ -236,14 +226,14 @@
                   Streamline kitchen operations with a digital display system that eliminates paper tickets, reduces errors, and ensures faster, more efficient order fulfillment.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Digital Orders – No more paper tickets or lost orders.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Live Updates – Orders sync instantly for faster prep.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Reduce Errors – Clear display = better accuracy.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Faster Service – Organized workflow = happier customers.</span></li>
+                  <li><i class="bi bi-check2-all"></i> Digital Orders – No more paper tickets or lost orders.</li>
+                  <li><i class="bi bi-check2-all"></i> Live Updates – Orders sync instantly for faster prep.</li>
+                  <li><i class="bi bi-check2-all"></i> Reduce Errors – Clear display = better accuracy.</li>
+                  <li><i class="bi bi-check2-all"></i> Faster Service – Organized workflow = happier customers.</li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/Kitchen Display.webp" alt="" class="img-fluid">
+                <img src="assets/img/Kitchen Display.webp" alt="KDS Image" class="img-fluid">
               </div>
             </div>
           </div><!-- End tab content item -->
@@ -251,27 +241,25 @@
           <div class="tab-pane fade" id="features-tab-3">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
-                <h3>Voluptatibus commodi accusamu</h3>
+                <h3>Sales Analytics</h3>
                 <p class="fst-italic">
                   Simplified reporting to assist with restaurant management, our team has developed an enhanced reporting function for all your required metrics.
                 </p>
                 <ul>
-                  <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-                  <li><i class="bi bi-check2-all"></i> <span>Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</span></li>
+                  <li><i class="bi bi-check2-all"></i> Detailed insights into sales performance.</li>
+                  <li><i class="bi bi-check2-all"></i> Customizable reports to fit business needs.</li>
+                  <li><i class="bi bi-check2-all"></i> Track trends and identify growth opportunities.</li>
                 </ul>
               </div>
               <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/features-illustration-3.webp" alt="" class="img-fluid">
+                <img src="assets/img/features-illustration-3.webp" alt="Analytics Image" class="img-fluid">
               </div>
             </div>
           </div><!-- End tab content item -->
-
         </div>
-
       </div>
-
     </section><!-- /Features Section -->
+
 
     <!-- Features Cards Section -->
     <section id="features-cards" class="features-cards section">
