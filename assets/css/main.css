@@ -2337,24 +2337,3 @@ section,
  
 } */
 
-
-
-.responsive-video {
-
-  width: 100%;
-  max-width: 1000px; /* Adjust for desktop */
-  transform: scale(1.5);
-}
-
-@media (max-width: 768px) {
-  .responsive-video {
-    width: 100%;  /* On mobile, it will take up the full width */
-    max-width: 500px; /* Adjust this to the desired mobile size */
-  }
-}
-
-@media (max-width: 480px) {
-  .responsive-video {
-    max-width: 500px; /* Further decrease the size for very small screens */
-  }
-}
