@@ -59,7 +59,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="contactus.html">Get Started</a>
+      <a class="btn-getstarted" href="contactus.html">Contact Us</a>
 
     </div>
   </header>
@@ -89,22 +89,25 @@
                 See How Our Team Can Improve Your Services
               </p>
 
+              
               <div class="hero-buttons">
-                <a href="#contact" class="btn btn-primary me-0 me-sm-2 mx-1">Get Started</a>
+                <a href="contactus.html" class="btn btn-primary me-0 me-sm-2 mx-1">Book A Demo</a>
                 <!-- R2: ✅ HIDE Video Features But Keep in Code-->
-                <!--a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-link mt-2 mt-sm-0 glightbox"-->
+                <!--a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="btn btn-link mt-2 mt-sm-0 glightbox"
                   <i class="bi bi-play-circle me-1"></i>
                   Play Video
-                </a>
+                </a>-->
               </div>
             </div>
           </div>
 
           <div class="col-lg-6">
-            <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
-              <img src="assets/img/IconOFINC1.webp" alt="Hero Image" class="img-fluid">
-            <!--✅  R2: REMOVED THE CUSTOMER TESTIMONIALS -->
-            </div>
+
+            <video id="myVideo" muted class="responsive-video">
+              <source src="./assets/model/OMS V5b.webm" type="video/webm">
+              Your browser does not support the video tag.
+          </video>
+
           </div>
         </div>
 
@@ -610,6 +613,10 @@
   <script>
     window.onload = function() {
       AOS.init();
+      setTimeout(function() {
+        var video = document.getElementById("myVideo");
+        video.play(); 
+    }, 1000); 
     };
   </script>
 </body>
